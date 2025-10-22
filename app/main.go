@@ -32,7 +32,6 @@ func main() {
 		return c.JSON(fiber.Map{
 			"message":   "My name is Susi Sandoval",
 			"timestamp": time.Now().Unix(),
-			"message1":  "Demo is Complete!",
 		})
 	})
 
