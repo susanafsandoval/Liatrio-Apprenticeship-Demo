@@ -20,6 +20,3 @@ ENV PORT=8080
 EXPOSE 8080
 USER app
 ENTRYPOINT ["server"]
-
-# run the app - got this from the video but dont need it 
-# CMD ["npm", "start"]
